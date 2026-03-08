@@ -11,8 +11,8 @@
   "name":"oTurret",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Enemies",
+    "path":"folders/Objects/Characters/Enemies.yy",
   },
   "parentObjectId":null,
   "persistent":false,

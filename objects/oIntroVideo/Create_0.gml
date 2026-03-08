@@ -1,2 +1,2 @@
 // Create Event
-video_path = "video.mp4"; 
+video_open("video.mp4"); 

@@ -1,1 +1,1 @@
-room_goto(rm_level_1);
+room_goto(choose(Platform1, Platform2, Platform3, Platform4));

@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"game",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":1,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":114.703674,
+  "exportDir":"",
+  "name":"game",
+  "parent":{
+    "name":"Objects",
+    "path":"folders/Objects.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"game.mp3",
+  "volume":1.0,
+}
