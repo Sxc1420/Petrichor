@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"oSpawn",
+  "%Name":"oSpawnTurret",
   "eventList":[],
   "managed":true,
-  "name":"oSpawn",
+  "name":"oSpawnTurret",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",

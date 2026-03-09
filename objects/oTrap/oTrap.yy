@@ -14,7 +14,7 @@
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,
-  "physicsGroup":1,
+  "physicsGroup":0,
   "physicsKinematic":false,
   "physicsLinearDamping":0.1,
   "physicsObject":false,
@@ -32,5 +32,5 @@
     "path":"sprites/trap/trap.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }
