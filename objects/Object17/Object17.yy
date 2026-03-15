@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"won",
-    "path":"sprites/won/won.yy",
+    "name":"won_artemis",
+    "path":"sprites/won_artemis/won_artemis.yy",
   },
   "spriteMaskId":null,
   "visible":true,

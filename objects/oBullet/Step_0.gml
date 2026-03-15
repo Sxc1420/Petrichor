@@ -38,9 +38,9 @@ if (place_meeting(x, y, global.player)) {
 		//b.direction = 0;
 		//b.speed = 8;
 		//instance_destroy(self);
-		if (global.hp <= 0) {
-			game_restart();
-		}
+		////if (global.hp <= 0) {
+		////	game_restart();
+		////}
 
 		
 	

@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"artemis_speak",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":2.4816327,
+  "exportDir":"",
+  "name":"artemis_speak",
+  "parent":{
+    "name":"dialogues",
+    "path":"folders/Objects/dialogues.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"artemis_speak.mp3",
+  "volume":1.0,
+}

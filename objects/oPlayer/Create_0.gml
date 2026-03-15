@@ -14,8 +14,10 @@ crystal_damage = false;
 bar_width = 100; // Define the maximum width of your health bar
 bar_height = 10;
 
+
 gold = 0;
 damage = 0;
+rooms = [oRoomManagerL1, oRoomManagerL2, oRoomManagerL3, oRoomManagerL4];
 
 global.player_scale = 0.89;
 
