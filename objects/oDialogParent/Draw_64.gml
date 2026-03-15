@@ -15,8 +15,8 @@ if (showing_dialog == true) {
 	text_x = sprite_get_width(current_dialog.sprite) + (padding * 2);
 	draw_set_alpha(alpha);
 	
-	//draw_set_color(c_black);
-	//draw_rectangle(0, 700, display_get_gui_width(), height, false)
+	draw_set_color(c_black);
+	draw_rectangle(40, 550, 1320, 735, false)
 	
 	//draw_set_colour(c_white);
 	//draw_rectangle(outline, outline+750, display_get_gui_width() - outline, height - outline, false);
@@ -25,9 +25,9 @@ if (showing_dialog == true) {
 	//draw_rectangle((outline*2), (outline * 2)+700, display_get_gui_width() - 50, height+20, false);
 	
 	draw_sprite(current_dialog.sprite, 0, 40, 565);
-	
+	draw_set_font(global.font);
 	draw_set_colour(c_white);
-	draw_text_ext(text_x+20, text_y, current_dialog.message, 20, 800);
+	draw_text_ext(text_x+20, text_y, current_dialog.message, 20, 1060);
 	
 	alpha = lerp(alpha, 1, 0.06);
 	

@@ -1,5 +1,6 @@
-if (global.hp == 0) {
-	room_goto(rm_restart);
-	global.hp = 100;
+//if (global.hp == 0) {
+//	room_goto(rm_restart);
+//	global.hp = 100;
 	
-}
+	
+//}

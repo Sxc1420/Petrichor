@@ -9,46 +9,27 @@ if (!global.paused) {
 	hsp = move * walksp;
 	vsp += grav;
 
-	//bounds
-	//if (x + hsp >= 990) {
-	//	while (x + sign(hsp) >= 990) {
-	//		x += sign(hsp)
-	//	}
-	//	x = 997
-	
-	//} else if (x + hsp <= 3) {
-	//
-	//	while (x + sign(hsp) <= 3) {
-	//		x += sign(hsp)
-	//	}
-	//	x = 3;
-
-	//} else if (y + vsp <= 3) {
-	//
-	//	while (y + sign(vsp) <= 3) {
-	//		y += sign(vsp)
-	//	}
-	//	y = 3;
-		//vsp = grav;
-	//}
 	if(x>= 990){
 		 x=990;
 	}
 	if(place_meeting(x, y, oPortal1)){
 	
 		// level 2
-		global.room++;
+	
 		room_goto(choose(Platform5, Platform6, Platform7, Platform8));
 	}
 
 	if(place_meeting(x, y, oPortal2)){
-		global.room++;
-		room_goto(choose(Platform9, Platform12));
+		
+		room_goto(choose(Platform9, Platform10));
 	}
 
 	if(place_meeting(x, y, oPortal3)){
-		global.room++;
+	
 		room_goto(Platform12);
+	}
+	if (place_meeting(x, y, oPortal4)) {
+		room_goto(rm_fairy);
 	}
 
 	//  ground lava
@@ -56,6 +37,11 @@ if (!global.paused) {
 		while (!place_meeting(x, y+sign(vsp), oLava)) {
 			y += sign(vsp);
 		}
+		global.hp = 0;
+		//for (var i = global.room;  i > 0; i--) {
+		//	rooms[i-1].restarted = true;
+		//}
+		
 		room_goto(rm_restart);
 
 	}

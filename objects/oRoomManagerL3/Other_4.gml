@@ -1,9 +1,17 @@
-	if (restarted) {
-		instance_destroy(oDialogParent);
-	}
-	global.gold -= coins_collected;
+global.room = 3;
+if (global.room == 3) {
+	coins_collected = 0;
 	var _player_instance = instance_create_layer(50, 48, "Characters", global.player);
-
+	//if (restarted == true) {
+	//	var _door_instances = get_all_instances_on_layer("Door");
+	
+	//	with (_door_instances[0]) {
+	//		instance_destroy();
+	//	}
+	//	with (_door_instances[1]) {
+	//		instance_destroy();
+	//	}
+	//}
 	function get_all_instances_on_layer(layer_name) {
 	    var _layer_id = layer_get_id(layer_name); // Get the layer ID
 	    var _elements = layer_get_all_elements(_layer_id); // Get all elements on the layer
@@ -63,3 +71,6 @@
 	}
 
 
+
+}
+	

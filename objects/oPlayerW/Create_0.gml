@@ -17,6 +17,7 @@ bar_height = 10;
 
 gold = 0;
 damage = 0;
+rooms = [oRoomManagerL1, oRoomManagerL2, oRoomManagerL3, oRoomManagerL4];
 
 global.player_scale = 0.89;
 

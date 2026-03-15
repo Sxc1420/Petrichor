@@ -1,4 +1,3 @@
-var b = instance_create_layer(x, y, "Instances_2", oCrystal);
-
-b.direction = 0;
-b.speed = 8;
+is_fading_out = false;
+fade_speed = 0.01;
+image_speed  = 1;

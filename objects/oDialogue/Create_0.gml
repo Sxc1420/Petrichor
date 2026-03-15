@@ -48,7 +48,7 @@ text = [
 	//*at peace with self*
 	{ speaker: "Fairy", message: "We may not share the same blood, but we do live on the same planet. We had though maybe perhaps in some distance future we could coexist… however I have realized now this will not be the case", portrait: fairy},
 	//[Long pause]
-	{ speaker: "Artemis", message: "“...Hm.", portrait: artemis_thinking},
+	{ speaker: "Artemis", message: "...Hm.", portrait: artemis_thinking},
 	// [Clears throat]
 	{ speaker: "Artemis", message: "Go for the main objective. Disregard any other information, and eliminate any distractions. Secure the gold, Butler. ", portrait: artemis_angry}
 	];
