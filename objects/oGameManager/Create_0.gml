@@ -12,7 +12,7 @@ global.restarted = false;
 wantsRestart = false;
 quit = false;
 
-global.font = font_add("block-sans-serif.ttf", 100, true, false, 0, 255);
+global.font = ft_hud;
 if (global.player == oPlayerW) {
 	global.name = "Juliet";
 } else if (global.player == oPlayer) {

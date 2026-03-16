@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"099bb134-c36c-4683-928d-22ac13222c03","name":"099bb134-c36c-4683-928d-22ac13222c03","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"bf02e7f2-fe1e-4356-98b5-a81ab5a3f506","name":"bf02e7f2-fe1e-4356-98b5-a81ab5a3f506","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":500,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"40348998-e5db-40c8-a3d0-607da1445887","blendMode":0,"displayName":"default","isLocked":false,"name":"40348998-e5db-40c8-a3d0-607da1445887","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"612bf166-d949-4e82-adcb-0245630c7a92","blendMode":0,"displayName":"default","isLocked":false,"name":"612bf166-d949-4e82-adcb-0245630c7a92","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"tutorial",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"099bb134-c36c-4683-928d-22ac13222c03","path":"sprites/tutorial/tutorial.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"29266774-21b7-4e7c-9a99-940d7ea56480","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"bf02e7f2-fe1e-4356-98b5-a81ab5a3f506","path":"sprites/tutorial/tutorial.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"d0e6cc24-9ba9-42d1-bf6c-ef90603203aa","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
